@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#e5e5e5" />
+	<!-- Google Fonts -->
+
+	<!-- CSS Styles  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/vendor/animate.css" />
+	<!-- <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" /> -->
+	<!-- <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css" /> -->
+	<link rel="stylesheet" href="css/vendor/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="icon" href="img/favicon.svg" />
+	<title>Creakzers</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__top">
+				<a class="header__brand" href="index.html">
+					<img src="img/logo.svg" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+					aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a href="#" alt="" class="header__button button button--primary">Купить на OpenSea</a>
+				<div class="header__search">
+					<form method="get" class="search-form">
+						<label class="search-form__label" for="search-field">
+							<span class="screen-reader-text">Для поиска на этом сайте введите поисковый запрос</span>
+							<input class="search-form__input" id="search-field" type="text" name="s" value=""
+								aria-required="false" autocomplete="off" placeholder="Поиск" />
+						</label>
+						<input type="submit" id="search-submit" class="search-form__button" tabindex="-1" value="" />
+					</form>
+				</div>
+				<div class="header__social">
+					<span class="header__social-follow">Подписывайтесь на нас</span>
+					<ul class="social__list">
+						<li class="social__item social__item--twitter">
+							<a class="social__link" href="#" target="_blank">
+								<span class="screen-reader-text">Twitter</span>
+							</a>
+						</li>
+						<li class="social__item social__item--discord">
+							<a class="social__link" href="#" target="_blank">
+								<span class="screen-reader-text">Discord</span>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<nav class="header__navbar navbar navbar-expand-xl">
+				<div class="container">
+					<div class="collapse navbar-collapse" id="navbarContent">
+						<ul class="navbar-nav list-unstyled">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="roadmap.html">Путеводитель</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">Блог</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="faq.html">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="team.html">Команда</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="404.html">404</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+	<!-- prettier-ignore -->
+	<main class="main main--top">
+		<section class="section-hero">
+			<div class="section-hero__swiper swiper">
+				<div class="section-hero__wrapper swiper-wrapper">
+					<div class="section-hero__slide section-hero__slide--1 swiper-slide">
+						<div class="section-hero__container container">
+							<div class="section-hero__image">
+								<img src="img/section-hero-image.png" alt=""
+									style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden" />
+							</div>
+							<p class="section-hero__text wow animate__animated animate__fadeIn">Познакомьтесь с
+								пресловутым
+								Creakzers - существа из ваших снов и кошмаров, а вполне возможно и из-под
+								твоя кровать… Не смотри вниз!</p>
+							<h1 class="section-hero__title wow animate__animated animate__fadeIn">Витрина и магазин
+								новой коллекции Vaporwave Creakzers NFT</h1>
+						</div>
+					</div>
+					<div class="section-hero__slide section-hero__slide--2 swiper-slide">
+						<div class="section-hero__container container">
+							<div class="section-hero__image">
+								<img src="img/section-hero-image-2.png" alt=""
+									style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden" />
+							</div>
+							<p class="section-hero__text wow animate__animated animate__fadeIn">Познакомьтесь с
+								пресловутым
+								Creakzers - существа из ваших снов и кошмаров, а вполне возможно и из-под
+								твоя кровать… Не смотри вниз!</p>
+							<div class="section-hero__title h1 wow animate__animated animate__fadeIn">Витрина и магазин
+								новой коллекции Vaporwave Creakzers NFT</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-hero__pagination container">
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-numbers">
+			<div class="section-numbers__container container">
+				<div class="section-numbers__wrapper">
+					<ul class="section-numbers__list list-unstyled">
+						<li class="section-numbers__item wow animate__animated animate__fadeIn">
+							<span class="section-numbers__number">1256</span>
+							<span class="section-numbers__text">Всего предметов</span>
+						</li>
+						<li class="section-numbers__item wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+							<span class="section-numbers__number">999</span>
+							<span class="section-numbers__text">Всего владельцев</span>
+						</li>
+						<li class="section-numbers__item wow animate__animated animate__fadeIn" data-wow-delay="0.4s">
+							<span class="section-numbers__number">0.48</span>
+							<span class="section-numbers__text">Минимальная цена (ETH)</span>
+						</li>
+						<li class="section-numbers__item wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+							<span class="section-numbers__number">20.1k</span>
+							<span class="section-numbers__text">Объем торгов (ETH)</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-gallery">
+			<div class="section-gallery__container container">
+				<h2 class="section-gallery__title h2 wow animate__animated animate__fadeInUp">Где все началось</h2>
+				<p class="section-gallery__text wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+					Однажды, в марте 2351 года, Крикзеры выползут из-под города, чтобы показать свою истинную
+					сила. И район за районом люди будут охватывать волну психоделической атмосферы, которую эти
+					неоновые существа разбросаны повсюду.
+				</p>
+
+				<ul class="section-gallery__list list-unstyled wow animate__animated animate__fadeIn">
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-md-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-md-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="section-gallery__item d-none d-lg-block">
+						<a href="#" class="section-gallery__item-link">
+							<div class="section-gallery__item-wrapper">
+								<div class="section-gallery__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-gallery__item-text">
+									<span class="section-gallery__item-rank">Ранг: 1</span>
+									<span class="section-gallery__item-number">#23654</span>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section-perks">
+			<div class="section-perks__container container">
+				<div class="section-perks__columns row">
+					<div class="section-perks__column col-md-6">
+						<h2 class="section-perks__title wow animate__animated animate__fadeInLeft">Преимущества Pro</h2>
+						<div class="section-perks__text wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+							Там больше шумихи, чем вы можете видеть на поверхности. Creakzers бывают самых разных форм и
+							воплощения. Вот что вы получите, став профессионалом в нашей банде.</div>
+					</div>
+					<div class="section-perks__column col-md-6">
+						<ul class="section-perks__list list-unstyled wow animate__animated animate__fadeInRight">
+							<li class="section-perks__item">
+								<h3 class="section-perks__item-title">Первоклассный доступ к дропам</h3>
+								<p class="section-perks__item-text">Будьте первыми, кто получит лучшие NFT раньше всех
+									можно даже пальцем пошевелить - там много горячих штучек!</p>
+							</li>
+							<li class="section-perks__item">
+								<h3 class="section-perks__item-title">Пользовательские карты</h3>
+								<p class="section-perks__item-text">Участники следующего уровня получают обслуживание
+									следующего уровня: наши
+									художники создадут единственную в своем роде открытку специально для вас.</p>
+							</li>
+							<li class="section-perks__item">
+								<h3 class="section-perks__item-title">фильтры инстаграм</h3>
+								<p class="section-perks__item-text">Раскрутите свои истории с помощью ретроволновых
+									фильтров.
+									Creakzers — ваши ленточки не будут завидовать!</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-blog">
+			<div class="section-blog__container container">
+				<h2 class="section-blog__title">Блог</h2>
+
+				<ul class="section-blog__list list-unstyled row wow animate__animated animate__fadeIn">
+					<li class="section-blog__item col-md-6">
+						<div class="section-blog__item-wrapper">
+							<div class="section-blog__item-image">
+								<a class="section-blog__item-link" href="blog-post.html" target="_blank"><img
+										src="img/blog-image-1.jpeg" alt="" /></a>
+							</div>
+							<h3 class="section-blog__item-title">
+								<a href="blog-post.html" target="_blank">Привет, мир!</a>
+							</h3>
+							<p class="section-blog__item-text">Но я должен объяснить вам, почему все это ошибочное
+								представление о
+								осуждая удовольствие и восхваляя боль, родился, и я буду...</p>
+						</div>
+					</li>
+					<li class="section-blog__item col-md-6">
+						<div class="section-blog__item-wrapper">
+							<div class="section-blog__item-image">
+								<a class="section-blog__item-link" href="blog-post.html" target="_blank"><img
+										src="img/blog-image-2.jpeg" alt="" /></a>
+							</div>
+							<h3 class="section-blog__item-title">
+								<a href="blog-post.html" target="_blank">Привет, мир!</a>
+							</h3>
+							<p class="section-blog__item-text">Но я должен объяснить вам, почему все это ошибочное
+								представление о
+								осуждая удовольствие и восхваляя боль, родился, и я буду...</p>
+						</div>
+					</li>
+
+				</ul>
+
+				<a href="/creakzers/light-theme/blog.html" class="section-blog__link" data-wow-delay="0.4s">ПОСМОТРЕТЬ
+					ВСЕ</a>
+			</div>
+		</section>
+
+		<section class="section-partners">
+			<div class="section-partners__container container">
+				<div class="section-partners__swiper swiper row wow animate__animated animate__fadeIn">
+					<ul class="section-partners__list swiper-wrapper list-unstyled">
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-1.svg" alt="" />
+							</div>
+						</li>
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-2.svg" alt="" />
+							</div>
+						</li>
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-3.svg" alt="" />
+							</div>
+						</li>
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-4.svg" alt="" />
+							</div>
+						</li>
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-5.svg" alt="" />
+							</div>
+						</li>
+						<li class="section-partners__item swiper-slide">
+							<div class="section-partners__image">
+								<img src="img/partners-image-6.svg" alt="" />
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section class="section-action">
+			<div class="section-action__container container">
+				<h2 class="section-action__title wow animate__animated animate__fadeInDown">Премьер-членство</h2>
+				<p class="section-action__text wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+					Если вы еще не слишком впечатлены, приготовьтесь к этому: в версии Pro доступно больше возможностей.
+					подписка! Получите предварительный доступ к рыночным дропам и эксклюзивным коллекциям лучших NFT
+					коллекция в наблюдаемой Вселенной.
+				</p>
+				<a href="#" class="section-action__link button button--primary wow animate__animated animate__fadeInUp"
+					data-wow-delay="0.3s">Дайте мне доступ Pro!</a>
+			</div>
+		</section>
+
+		<section class="section-icon-list">
+			<div class="section-icon-list__container container">
+				<h2 class="section-icon-list__title wow animate__animated animate__fadeInLeft">Непревзойденный и
+					потрясающий
+				</h2>
+
+				<ul class="section-icon-list__list list-unstyled row">
+					<li class="section-icon-list__item col-md-4 wow animate__animated animate__fadeIn">
+						<div class="section-icon-list__item-wrapper">
+							<div class="section-icon-list__item-icon">
+								<img src="img/list-icon-1.svg" alt="" />
+							</div>
+							<h3 class="section-icon-list__item-title">Супер вычурный</h3>
+							<p class="section-icon-list__item-text">Художники, создавшие эти NFT, работали над
+								15+ успешных проектов</p>
+						</div>
+					</li>
+					<li class="section-icon-list__item col-md-4 wow animate__animated animate__fadeIn"
+						data-wow-delay="0.2s">
+						<div class="section-icon-list__item-wrapper">
+							<div class="section-icon-list__item-icon">
+								<img src="img/list-icon-2.svg" alt="" />
+							</div>
+							<h3 class="section-icon-list__item-title">Доказуемо редко</h3>
+							<p class="section-icon-list__item-text">Каждый из Creakzer уникален на 100% — и вы можете
+								легко доказать это самому</p>
+						</div>
+					</li>
+					<li class="section-icon-list__item col-md-4 wow animate__animated animate__fadeIn"
+						data-wow-delay="0.4s">
+						<div class="section-icon-list__item-wrapper">
+							<div class="section-icon-list__item-icon">
+								<img src="img/list-icon-3.svg" alt="" />
+							</div>
+							<h3 class="section-icon-list__item-title">Фантастический</h3>
+							<p class="section-icon-list__item-text">Это просто самый потрясающий пакет NFT — и
+								это даже не спорно</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section-roadmap">
+			<div class="section-roadmap__container container">
+				<h2 class="section-roadmap__title wow animate__animated animate__fadeInLeft">Путешествие Creakzers</h2>
+				<p class="section-roadmap__text wow animate__animated animate__fadeIn" data-wow-delay="0.2s">Проверить
+					наши амбициозные планы: по мере продвижения мы будем ставить галочки, пока не достигнем цели. Что
+					дальше? Более смелый
+					подвиги!</p>
+
+				<ul class="section-roadmap__list list-unstyled wow animate__animated animate__fadeIn"
+					data-wow-delay="0.4s">
+					<li class="section-roadmap__item">
+						<div class="section-roadmap__item-wrapper">
+							<div class="section-roadmap__item-number">
+								<span>10%</span>
+							</div>
+							<div class="section-roadmap__item-content">
+								<h3 class="section-roadmap__item-title">NFT чеканятся</h3>
+								<p class="section-roadmap__item-text">Вот где искусство становится частью цифрового
+									Мир. Мы упаковываем его как подарок в красивую и красивую оболочку NFT, чтобы
+									убедиться, что
+									будущий владелец доволен всем.</p>
+							</div>
+						</div>
+					</li>
+					<li class="section-roadmap__item" data-wow-delay="0.1s">
+						<div class="section-roadmap__item-wrapper">
+							<div class="section-roadmap__item-number">
+								<span>25%</span>
+							</div>
+							<div class="section-roadmap__item-content">
+								<h3 class="section-roadmap__item-title">Попадание в ваши глаза и уши с промо
+								</h3>
+								<p class="section-roadmap__item-text">Вокруг наших NFT начинается ажиотаж. Люди
+									познакомьтесь с нашими лучшими выпусками и эксклюзивными функциями, и слухи об этом
+									разлетятся по всему миру.
+									место.</p>
+							</div>
+						</div>
+					</li>
+					<li class="section-roadmap__item" data-wow-delay="0.2s">
+						<div class="section-roadmap__item-wrapper">
+							<div class="section-roadmap__item-number">
+								<span>50%</span>
+							</div>
+							<div class="section-roadmap__item-content">
+								<h3 class="section-roadmap__item-title">Интерактивные привилегии вступают в силу</h3>
+								<p class="section-roadmap__item-text">Помните игру NFT, которую мы упоминали? Время
+									запуска
+									Это! Теперь вы можете попробовать это прямо здесь и на нашем партнерском сайте -
+									приходите и не
+									забудь сказать нам, что ты думаешь.</p>
+							</div>
+						</div>
+					</li>
+					<li class="section-roadmap__item" data-wow-delay="0.3s">
+						<div class="section-roadmap__item-wrapper">
+							<div class="section-roadmap__item-number">
+								<span>75%</span>
+							</div>
+							<div class="section-roadmap__item-content">
+								<h3 class="section-roadmap__item-title">Время основного раунда продаж</h3>
+								<p class="section-roadmap__item-text">Слишком долгое ожидание утомительно, не так ли?
+									Итак, наконец-то продажи официально открыты! Спешите: лимитированная коллекция
+									получает
+									распроданы быстрее, чем вы говорите «Заткнись и возьми мои деньги!”</p>
+							</div>
+						</div>
+					</li>
+					<li class="section-roadmap__item" data-wow-delay="0.05s">
+						<div class="section-roadmap__item-wrapper">
+							<div class="section-roadmap__item-number">
+								<span>100%</span>
+							</div>
+							<div class="section-roadmap__item-content">
+								<h3 class="section-roadmap__item-title">Похлопаем всех по плечу – и пусть новое
+									путешествие начинается</h3>
+								<p class="section-roadmap__item-text">Вау, это было весело! На этот раз вам понадобилось
+									всего 2
+									дней, чтобы достичь распродано. Мы должны сделать это снова, и мы уже начали
+									следующий проект. Следите за обновлениями!</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section-join">
+			<div class="section-join__container container">
+				<h2 class="section-join__title">Присоединяйтесь к культу — если вы достаточно смелы</h2>
+				<div class="section-join__wrapper row">
+					<div class="col-md-5 col-lg-6 wow animate__animated animate__fadeIn">
+						<p class="section-join__text">Там больше шумихи, чем вы можете видеть на поверхности. Сreakerz приходят
+							во всевозможных формах и воплощениях. Вот что вы получите, став профессионалом в нашей банде.</p>
+						<a href="#" class="section-join__link button button--primary d-none d-md-inline-flex">Купить в OpenSea</a>
+					</div>
+					<div class="col-md-7 col-lg-6">
+						<ul class="section-join__list list-unstyled row">
+							<li class="section-join__item col-md-6 wow animate__animated animate__fadeInRight">
+								<h3 class="section-join__item-title">Коллекция Vaporwave</h3>
+								<p class="section-join__item-text">Прочувствуйте ностальгию по рейву 90-х и мягкой электронике
+									Музыка</p>
+							</li>
+							<li class="section-join__item col-md-6 wow animate__animated animate__fadeInRight"
+								data-wow-delay="0.1s">
+								<h3 class="section-join__item-title">Коллекция киберпанк</h3>
+								<p class="section-join__item-text">Технический мультяшный Creakzers для фанатов техники</p>
+							</li>
+							<li class="section-join__item col-md-6 wow animate__animated animate__fadeInRight"
+								data-wow-delay="0.2s">
+								<h3 class="section-join__item-title">Коллекция кислотного неона</h3>
+								<p class="section-join__item-text">Украсьте свою коллекцию произведений искусства этими красочными
+									персонажи</p>
+							</li>
+							<li class="section-join__item col-md-6 wow animate__animated animate__fadeInRight"
+								data-wow-delay="0.3s">
+								<h3 class="section-join__item-title">Mystic cult collection</h3>
+								<p class="section-join__item-text">Жуткое и призрачное чутье для тех, кому это нравится
+									пугающий</p>
+							</li>
+						</ul>
+						<a href="#" class="section-join__link button button--primary d-inline-flex d-sm-none">Купить на OpenSea</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-blocks">
+			<div class="section-blocks__container container">
+				<div class="row">
+					<div class="section-blocks__item col-md-6 wow animate__animated animate__fadeIn">
+						<div class="section-blocks__item-wrapper section-blocks__item-wrapper--right-element">
+							<h3 class="section-blocks__item-title">Первоклассная коллекция</h3>
+							<p class="section-blocks__item-text">Наша совершенно новая коллекция включает в себя единственные в своем роде NFTized
+								художественные работы - некоторые из них являются предметами коллекционирования, основанными на наших главных героях, некоторые
+								отдельные шедевры. Но каждый из них абсолютно уникален и, как ожидается, будет расти в будущем.
+								цена значительно.</p>
+						</div>
+					</div>
+					<div class="section-blocks__image section-blocks__image--1 col-md-6 wow animate__animated animate__fadeIn"
+						data-wow-delay="0.2s"></div>
+				</div>
+				<div class="row">
+					<div class="section-blocks__image section-blocks__image--2 col-md-6 wow animate__animated animate__fadeIn"
+						data-wow-delay="0.2s"></div>
+					<div class="section-blocks__item col-md-6 wow animate__animated animate__fadeIn">
+						<div class="section-blocks__item-wrapper section-blocks__item-wrapper--left-element">
+							<h3 class="section-blocks__item-title">Имя, которое продается</h3>
+							<p class="section-blocks__item-text">Вы, вероятно, уже слышали о нас, и если вы
+								нет - ознакомьтесь с нашим портфолио. Все наши коллекции поражают публику и быстро становятся
+								раскупили в первые же дни. Спросите вокруг: мы лучшие, когда дело доходит до
+								NFT.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="section-blocks__item col-md-6 wow animate__animated animate__fadeIn">
+						<div class="section-blocks__item-wrapper">
+							<h3 class="section-blocks__item-title">Большая история</h3>
+							<p class="section-blocks__item-text">Посмотрите на этих очаровательных монстров на наших открытках — тех,
+								у приятелей есть реальная история позади них. Начиная с нашей первой коллекции, мы
+								рассказать вам о своем путешествии — как насчет того, чтобы тоже стать его частью?</p>
+						</div>
+					</div>
+					<div class="section-blocks__image section-blocks__image--3 col-md-6 wow animate__animated animate__fadeIn"
+						data-wow-delay="0.2s"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-team">
+			<div class="section-team__container container">
+				<h2 class="section-team__title">Команда</h2>
+
+				<div class="section-team__swiper swiper wow animate__animated animate__fadeInUp">
+					<ul class="section-team__list swiper-wrapper list-unstyled">
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Дэниел Тан</p>
+									<p class="section-team__item-position">Художник</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Аллен Уивер</p>
+									<p class="section-team__item-position">Соавтор</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Колин Джексон</p>
+									<p class="section-team__item-position">SEO-инженер</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Кэтлин Таунсенд</p>
+									<p class="section-team__item-position">Блокчейн-разработчик</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-2.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Феликс Джозеф</p>
+									<p class="section-team__item-position">Цифровой художник</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-1.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Дэвид Гаррисон</p>
+									<p class="section-team__item-position">UI дизайнер</span>
+								</div>
+							</div>
+						</li>
+						<li class="section-team__item swiper-slide">
+							<div class="section-team__item-wrapper">
+								<div class="section-team__item-image">
+									<img src="img/nft-image-3.png" alt="" />
+								</div>
+								<div class="section-team__item-text">
+									<p class="section-team__item-name">Руби Кросс</p>
+									<p class="section-team__item-position">Основатель</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-banner wow animate__animated animate__pulse">
+			<div class="section-banner__container container">
+				<div class="section-banner__wrapper">
+					<div class="section-banner__content">
+						<h2 class="section-banner__title">Присоединяйтесь к нашему сообществу</h2>
+						<p class="section-banner__text">Будем рады видеть вас с нами, до скорой встречи!</p>
+					</div>
+					<a href="#" class="section-banner__link button button--dark">Присоединяйтесь к Discord</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__top">
+				<a class="footer__brand" href="./index.html">
+					<img src="img/logo.svg" alt="" />
+				</a>
+				<div class="footer__social">
+					<ul class="social__list">
+						<li class="social__item social__item--twitter">
+							<a class="social__link" href="#" target="_blank">
+								<span class="screen-reader-text">Twitter</span>
+							</a>
+						</li>
+						<li class="social__item social__item--discord">
+							<a class="social__link" href="#" target="_blank">
+								<span class="screen-reader-text">Discord</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<ul class="footer__menu list-unstyled">
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./index.html">Главная</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./about.html">О нас</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./roadmap.html">Путеводитель</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./blog.html">Блог</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./faq.html">FAQ</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./team.html">Команда</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="./404.html">404</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<div class="scroll-to-top"></div>
+
+	<!-- Javascript Files -->
+	<script src="js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/wow.min.js"></script>
+	<script src="js/vendor/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+
+</html>
